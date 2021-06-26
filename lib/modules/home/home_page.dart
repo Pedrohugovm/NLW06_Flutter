@@ -92,8 +92,8 @@ class _HomePageState extends State<HomePage> {
               ),
               child: IconButton(
                   onPressed: () async {
-                     Navigator.pushNamed(context, "/barcode_scanner");
-                     setState(() {});
+                    setState(() {});
+                    Navigator.pushNamed(context, "/barcode_scanner");
                   },
                   icon: Icon(
                       Icons.add_box_outlined)
@@ -103,9 +103,8 @@ class _HomePageState extends State<HomePage> {
 
           IconButton(
               onPressed: (){
-                controller.setPage(1);
                 setState(() {
-
+                controller.setPage(1);
                 });
               },
               icon: Icon(

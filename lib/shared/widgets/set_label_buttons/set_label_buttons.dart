@@ -19,7 +19,7 @@ class SetLabelButtons extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: AppColors.background,
-      height: 56,
+      height: 55,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -29,7 +29,7 @@ class SetLabelButtons extends StatelessWidget {
             color: AppColors.stroke,
           ),
           Container(
-            height: 56,
+            height: 55,
             child: Row(
               children: [
                 Expanded(
