@@ -1,6 +1,6 @@
 # payflow
 
-A new Flutter project.
+Projeto da NLW06 - trilha Flutter
 
 ## Getting Started
 
